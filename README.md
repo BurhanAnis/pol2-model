@@ -1,2 +1,7 @@
 # pol2-model
-Stochastic Model of RNA Polymerase II distribution across DNA template strands, based on Polymerase Intact Nascent Transcription sequencing (POINT-seq).
+
+RNA Polymerase II (Pol II) is the key molecular motor that mediates the process of transcriptional elongation, the synthesis of mRNA from a template strand of DNA. Pol II exhibits a unique pausing behavior in proximity to the promoter region of the template strand, as well as downstream loci. The fate of this paused complex, either termination or release into elongation, is a critical factor determining gene output, and thus quantifying the dynamics of Pol II has important applications to the fields of genomic disease and medicine. New experimental techniques have allowed for high resolution spatial information on the distribution of Pol II across genes, but mathematical models have lagged due to their inability to distinguish between nascent and mature mRNA species. Here, a stochastic simulation based on the experimental regimes of POINT technology is developed. When compared to experimental results from the TRIP10 gene, this simulation recreates the expected positional densities of RNA Polymerase II, but only for short exon sequences. Boundary conditions and transitions from the exon to intron need to be considered, perhaps by introducing mechanisms that describe the spliceosome.
+
+Here is a schematic of the model described in "pol2_model".
+
+![Screen Shot 2023-06-21 at 10 49 15 AM](https://github.com/BurhanAnis/pol2-model/assets/115022379/f77d8fd7-c91e-4596-a189-3574fb0c46cc)
